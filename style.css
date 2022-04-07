@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0%;
+    color:aliceblue;
+}
+
+
+.navbar{
+    background-color: #3A3845;
+    padding: 2rem;
+    border-radius: 2%;
+    
+}
+
+.logo{
+    width: 20%;
+}
+
+.links{
+    text-align: center;
+    color:aliceblue;
+}
+.link_style{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+video{
+    width:1152px; 
+    height:648px; 
+}
+
+.video{
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+   
+}
+
+
+/* ABOUT */
+.Aheading{
+    text-align: center;
+    padding: 30px;
+    font: 5em sans-serif;
+
+}
+
+.Atext, .specifivation,.aboutcar{ 
+    letter-spacing: 1.3px;
+    padding: 7% 20% ;
+    font: 1em sans-serif;
+}
+
+/* PRODUCT*/
+.main_box {
+    text-align: center;
+    align-items: center;
+    padding: 7% 20%;
+}
+
+
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 600px){
+
+
+video{
+     width: 100vw;
+     height: 60vh;
+ }
+ .links{
+     text-align: left;
+    
+ }
+
+
+
+}
