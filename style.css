@@ -27,9 +27,10 @@ body{
     font-size: 1.5rem;
     padding: 12px;
 }
-video{
+iframe{
     width:1152px; 
     height:648px; 
+    border: #000;
 }
 
 .video{
@@ -44,14 +45,14 @@ video{
 .Aheading{
     text-align: center;
     padding: 30px;
-    font: 5em sans-serif;
+    font: 4em sans-serif;
 
 }
 
 .Atext, .specifivation,.aboutcar{ 
-    letter-spacing: 1.3px;
+    letter-spacing: 1.4px;
     padding: 7% 20% ;
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
 }
 
 /* PRODUCT*/
@@ -68,14 +69,16 @@ video{
 
 @media only screen and (max-width: 600px){
 
-
-video{
+iframe{
      width: 100vw;
      height: 60vh;
  }
  .links{
      text-align: left;
-    
+ }
+ .link_style{
+     font-size: 1.5em;
+     padding: 2px;
  }
 
 
