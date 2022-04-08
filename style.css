@@ -6,6 +6,23 @@ body{
 }
 
 
+
+img{
+    width:984px;
+     height:557px;
+     border-radius: 20px;
+}
+.preloader{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+
 .navbar{
     background-color: #3A3845;
     padding: 2rem;
@@ -27,9 +44,10 @@ body{
     font-size: 1.5rem;
     padding: 12px;
 }
-video{
+iframe{
     width:1152px; 
     height:648px; 
+    border: #000;
 }
 
 .video{
@@ -48,11 +66,23 @@ video{
 
 }
 
-.Atext, .specifivation,.aboutcar{ 
-    letter-spacing: 1.3px;
+.Atext, .specifivation,.aboutcar,.price{ 
+    letter-spacing: 1.4px;
     padding: 7% 20% ;
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
 }
+
+
+.aboutimage{
+    padding: 0 40%;
+    align-self: center;
+    text-align: center ;
+    width: 20%;
+    height: 40%;
+    margin: 0;
+
+}
+
 
 /* PRODUCT*/
 .main_box {
@@ -61,23 +91,75 @@ video{
     padding: 7% 20%;
 }
 
+.table{
+    text-align: center;
+    width: 70%;
+}
 
+h1,h2,h3,h4,h5,h6{
+    width:984px;
 
-
+}
 /*Mobile*/
 
 @media only screen and (max-width: 600px){
 
 
-video{
+iframe{
      width: 100vw;
      height: 60vh;
  }
  .links{
      text-align: left;
-    
  }
+ .link_style{
+     font-size: 1.4em;
+     padding: 1.5px;
+ }
+/*Product*/
+.main_box{
+
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 284px;
+    height: 150px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0 35px;
+    width:284px;
+
+}
+
+/*About*/
+.Aheading{
+    text-align: center;
+    padding: 30px;
+    font: 3em sans-serif;
+
+}
+
+.Atext, .specifivation,.aboutcar,.price{ 
+    text-align: center;
+    padding: 7% 0% ;   
+    font: 1em sans-serif;
+}
+.Atext{
+    padding: 7% 20%;
+}
 
 
+.aboutimage{
+    align-self: center;
+    text-align: center ;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    padding: 0 30%;
+
+
+}
 
 }
