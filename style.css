@@ -3,6 +3,7 @@ body{
     padding: 0;
     margin: 0%;
     color:aliceblue;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -62,14 +63,14 @@ iframe{
 .Aheading{
     text-align: center;
     padding: 30px;
-    font: 5em sans-serif;
+    font-size: 5em ;
 
 }
 
 .Atext, .specifivation,.aboutcar,.price{ 
     letter-spacing: 1.4px;
     padding: 7% 20% ;
-    font: 1.5em sans-serif;
+    font-size: 1.5em ;
 }
 
 
@@ -80,9 +81,7 @@ iframe{
     width: 20%;
     height: 40%;
     margin: 0;
-
 }
-
 
 /* PRODUCT*/
 .main_box {
@@ -100,6 +99,16 @@ h1,h2,h3,h4,h5,h6{
     width:984px;
 
 }
+
+/*Contact*/
+
+.linkicon{
+ text-decoration: none;
+ color: aliceblue;
+ font-size: 1em;
+
+}
+
 /*Mobile*/
 
 @media only screen and (max-width: 600px){
@@ -137,14 +146,14 @@ h1,h2,h3,h4,h5,h6{
 .Aheading{
     text-align: center;
     padding: 30px;
-    font: 3em sans-serif;
+    font-size: 3em;
 
 }
 
 .Atext, .specifivation,.aboutcar,.price{ 
     text-align: center;
     padding: 7% 0% ;   
-    font: 1em sans-serif;
+    font-size: 1em;
 }
 .Atext{
     padding: 7% 20%;
@@ -158,8 +167,6 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     margin: 0;
     padding: 0 30%;
-
-
 }
 
 }
