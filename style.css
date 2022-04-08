@@ -145,7 +145,15 @@ input[type=text], select, textarea {
     margin: 7% 20% ;
   }
 
+.Clinks{
+    padding: 2%;
+    margin: 0% 20% ;
+    text-align: center;
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
 
+} 
   
 /*Mobile*/
 
@@ -217,4 +225,13 @@ h1,h2,h3,h4,h5,h6{
     margin:  40px;
   }
 
+
+  .Clinks{
+    padding: 2%;
+    margin: 0% 25% ;
+    text-align: center;
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+  }   
 }
