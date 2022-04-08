@@ -1,4 +1,5 @@
-body{
+body{  text-align: center;
+    align-items: center;
     background-color: black;
     padding: 0;
     margin: 0%;
@@ -58,6 +59,47 @@ iframe{
    
 }
 
+.main_image{
+        position: relative;
+        width: 100%;
+        height: 100%;
+}
+
+.top-box{
+    letter-spacing: 1.4px;
+    padding:  7% 23% ;
+    font-size: 1.5em ;
+
+}
+/* Card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
 
 /* ABOUT */
 .Aheading{
@@ -69,7 +111,7 @@ iframe{
 
 .Atext, .specifivation,.aboutcar,.price{ 
     letter-spacing: 1.4px;
-    padding: 7% 20% ;
+    padding: 7% 23% ;
     font-size: 1.5em ;
 }
 
@@ -137,6 +179,7 @@ input[type=text], select, textarea {
   
 
   .container {
+    
     width:984px;
     height:557px;
     border-radius: 5px;
@@ -183,6 +226,7 @@ img{
 }
 
 h1,h2,h3,h4,h5,h6{
+    font-size: 80%;
     padding: 0 35px;
     width:284px;
 
@@ -196,10 +240,11 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-.Atext, .specifivation,.aboutcar,.price{ 
+
+.Atext, .specifivation,.aboutcar,.price,.top-box{ 
     text-align: center;
     padding: 7% 0% ;   
-    font: 1em;
+    font: 0.2em;
 }
 .Atext{
     padding: 7% 20%;
