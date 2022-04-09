@@ -7,8 +7,34 @@ body{  text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-
-
+/* Preloader */
+#PreLoader{
+    text-align: center;
+    background-color: #000; 
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.PreLoader-text {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 0.75;
+    margin: 10px 0;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
 img{
     width:984px;
      height:557px;
@@ -201,6 +227,23 @@ input[type=text], select, textarea {
 /*Mobile*/
 
 @media only screen and (max-width: 600px){
+
+    .PreLoader-text {
+    
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 3rem;
+        line-height: 0.75;
+        margin: 10px 0;
+        font-size: 7vw;
+        font-weight: bold;
+      }
 
 
 iframe{
